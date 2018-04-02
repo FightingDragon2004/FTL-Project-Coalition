@@ -1,0 +1,28 @@
+<animSheet name="mega_laser_artillery" w="611" h="129" fw="47" fh="129">weapons/omega_laser_artillery_strip13.png</animSheet>
+<weaponAnim name="mega_laser_artillery">
+	<sheet>mega_laser_artillery</sheet>
+	<desc length="13" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="16" y="20"/>
+	<mountPoint x="23" y="98"/>
+	<chargeImage>weapons/omega_laser_artillery_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="omega_projectile" w="161" h="20" fw="161" fh="20">weapons/projectile_omega.png</animSheet>
+<anim name="omega_projectile">
+	<sheet>omega_projectile</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+
+
+<animSheet name="energy_basic" w="208" h="65" fw="24" fh="65">weapons/basic_energycannon.png</animSheet>        <!-- DESIGNATION: VALUE 1  These values determine the dimensions of the weapon animation as a whole and the dimensions of a frame, as well as the image used for the animation. -->
+<weaponAnim name="ENERGY_BASIC">                                            <!-- DESIGNATION: VALUE 2  This determines the name of the weapon animation. -->
+    <sheet>ENERGY_CANNON</sheet>                                            <!-- DESIGNATION: VALUE 3  This determines what animSheet the animation uses (essentially it tells it to regard the first line of text). -->
+    <desc length="13" x="0" y="0"/>                                                <!-- DESIGNATION: VALUE 4  This determines the number of frames in the animation. X and Y values should remain 0. -->
+    <chargedFrame>3</chargedFrame>                                                <!-- DESIGNATION: VALUE 5  This determines what frame the weapon displays when charged. Keep in mind, the first frame in the animation is frame 0. -->
+    <fireFrame>5</fireFrame>                                                    <!-- DESIGNATION: VALUE 6  This determines which frame begins the firing sequence. -->
+    <firePoint  x="16" y="8" charge="0"/>                                            <!-- DESIGNATION: VALUE 7  This determines the starting location of the shot animation in relation to the weapon. The charge value is used if the weapon has a charge power, in which case it determines the displacement of additional shots in relation to the last. -->
+    <mountPoint x="1" y="59"/>                                                    <!-- DESIGNATION: VALUE 8  This determines the location at which the weapon is attached to a ship. -->
+</weaponAnim>
