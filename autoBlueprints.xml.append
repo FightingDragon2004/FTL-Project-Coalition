@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
+<blueprintList name="DRONES_STANDARD">
+	<!-- this is just all of them -->
+	<!-- <name>SHIP_REPAIR</name> -->
+	<name>COMBAT_1_WEAK</name>
+	<name>COMBAT_1_FAST</name>
+	<name>COMBAT_MISSILE_WEAK</name>
+	<name>DEFENSE_1_WEAK</name>
+	<name>SHIP_REPAIR_EXPENSIVE</name>
+	<name>REPAIR</name>
+	<name>BATTLE</name>
+	<name>BOARDER</name>
+</blueprintList>
+<blueprintList name="DRONES_COMBAT">
+	<name>COMBAT_MISSILE_WEAK</name>
+	<name>COMBAT_1_WEAK</name>
+	<name>COMBAT_1_FAST</name>
+</blueprintList>
+<blueprintList name="DRONES_INTERNAL">
+	<name>REPAIR_EXPENSIVE</name>
+</blueprintList>
+<blueprintList name="DRONES_DEFENSE">
+	<name>DEFENSE_1_WEAK</name>
+	<name>SHIP_REPAIR_EXPENSIVE</name>
+</blueprintList>
+<blueprintList name="STANDARD_WEAPONS">
+	<!-- this is just all of them -->
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_DUAL</name>
+	<name>MISSILES_WEAK</name>
+	<name>ION_BASIC</name>
+	<name>ION_COMPLICATED</name>
+	<name>ENERGY_BASIC</name>
+	<name>ENERGY_COMPLICATED</name>
+	<name>BOMB_WEAK</name>
+	<name>LASER_HEAVY_WEAK</name>
+	<name>MISSILES_PIERCE</name>
+	<name>BEAM_WEAK</name>
+	<name>MISSILES_BETTER</name>
+	<name>MISSILES_VOLATILE</name>
+	<name>LASER_HULL_WEAK</name>
+	<name>ENERGY_BASIC</name>
+	<name>ENERGY_COMPLICATED</name>
+</blueprintList>
+<blueprintList name="WEAPONS_FREE">
+	<name>LASER_BURST_WEAK</name>
+	<name>MISSILES_WEAK</name>
+</blueprintList>
+<blueprintList name="WEAPONS_REBEL">
+	<!-- Coalition Fighters-->
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_DUAL</name>
+	<name>LASER_HEAVY_WEAK</name>
+	<name>BEAM_1</name>
+</blueprintList>
+<blueprintList name="WEAPONS_AUTO">
+	<!-- Don't know what auto ships are yet. This is just a filler in case they were in game...-->
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_DUAL</name>
+	<name>LASER_HEAVY_WEAK</name>
+	<name>MISSILES_WEAK</name>
+	<name>MISSILES_PIERCE</name>
+	<name>MISSILES_VOLATILE</name>
+	<name>MISSILE_BETTER</name>
+	<name>BEAM_WEAK</name>
+	<name>ION_BASIC</name>
+	<name>ION_COMPLICATED</name>
+</blueprintList>
+<blueprintList name="WEAPONS_JELLY">
+	<!-- not sure who uses the blue ships.. this will probably change later.  Just for testing now -->
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_DUAL</name>
+	<name>ION_BASIC</name>
+	<name>ION_COMPLICATED</name>
+	<name>BEAM_WEAK</name>
+	<name>MISSILES_PIERCE</name>
+</blueprintList>
+<blueprintList name="WEAPONS_ROCK">
+	<name>MISSILES_WEAK</name>
+	<name>MISSILES_BETTER</name>
+	<name>MISSILES_PIERCE</name>
+	<name>MISSILES_VOLATILE</name>
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_HEAVY_WEAK</name>
+	<name>LASER_HULL_WEAK</name>
+</blueprintList>
+<blueprintList name="WEAPONS_MANTIS">
+	<name>BOMB_WEAK</name>
+	<name>LASER_DUAL</name>
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_HULL_WEAK</name>
+	<name>MISSILES_WEAK</name>
+	<name>MISSILES_BETTER</name>
+	<name>BEAM_WEAK</name>
+</blueprintList>
+<blueprintList name="WEAPONS_FED">
+	<!-- Same as auto ships for now -->
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_DUAL</name>
+	<name>LASER_HEAVY_WEAK</name>
+	<name>MISSILES_WEAK</name>
+	<name>MISSILES_PIERCE</name>
+	<name>MISSILES_VOLATILE</name>
+	<name>MISSILE_BETTER</name>
+	<name>BEAM_WEAK</name>
+	<name>ION_BASIC</name>
+	<name>ION_COMPLICATED</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CIRCLE">
+	<name>LASER_DUAL</name>
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_HEAVY_WEAK</name>
+	<name>BEAM_WEAK</name>
+	<name>ION_BASIC</name>
+	<name>ION_COMPLICATED</name>
+	<name>ENERGY_BASIC</name>
+	<name>ENERGY_COMPLICATED</name>
+</blueprintList>
+<blueprintList name="DRONES_CIRCLE">
+	<name>COMBAT_1_WEAK</name>
+	<name>COMBAT_1_FAST</name>
+	<name>COMBAT_MISSILE_WEAK</name>
+	<name>DEFENSE_1_WEAK</name>
+	<name>SHIP_REPAIR_EXPENSIVE</name>
+	<!--Change-->
+	<!-- <name>SHIP_REPAIR</name> -->
+	<name>REPAIR_EXPENSIVE</name>
+</blueprintList>
+<blueprintList name="WEAPONS_ZOLTAN">
+	<name>LASER_BURST_WEAK</name>
+	<name>LASER_DUAL</name>
+	<name>LASER_HEAVY_WEAK</name>
+	<name>MISSILES_WEAK</name>
+	<name>MISSILES_PIERCE</name>
+	<name>MISSILES_VOLATILE</name>
+	<name>BEAM_WEAK</name>
+	<name>BEAM_ZOLTAN_LONG</name>
+	<name>ION_BASIC</name>
+	<name>ION_COMPLICATED</name>
+	<name>ENERGY_BASIC</name>
+	<name>ENERGY_COMPLICATED</name>
+</blueprintList>
+<!-- USED IN EVENT DOCK_BOMB_SALESMAN -->
+<blueprintList name="WEAPONS_MISSILES_EXPENSIVE">
+	<name>MISSILES_WEAK</name>
+	<name>MISSILES_BETTER</name>
+	<name>MISSILES_PIERCE</name>
+	<name>MISSILES_VOLATILE</name>
+</blueprintList>
+<blueprintList name="WEAPONS_CRYSTAL">
+	<name>CRYSTAL_BURST_DILUTED</name>
+	<name>CRYSTAL_HEAVY_DILUTED</name>
+	<name>MISSILES_PIERCE</name>
+	<name>MISSILES_BETTER</name>
+	<name>LASER_DUAL</name>
+</blueprintList>
+<blueprintList name="CREW_RANDOM">
+	<name>mantis</name>
+	<name>rock</name>
+	<name>engi</name>
+	<name>energy</name>
+	<name>human</name>
+	<name>slug</name>
+	<name>crystal</name>
+</blueprintList>
+<blueprintList name="WEAPONS_ION">
+	<!-- for events -->
+	<name>ION_BASIC</name>
+	<name>ION_COMPLIACTED</name>
+	<name>ENERGY_BASIC</name>
+	<name>ENERGY_COMPLIACTED</name>
+</blueprintList>
+<blueprintList name="WEAPONS_MISSILES">
+	<!-- for events -->
+	<name>MISSILES_WEAK</name>
+	<name>MISSILES_BETTER</name>
+	<name>MISSILES_BREACH_WEAK</name>
+	<name>MISSILES_PIERCE</name>
+	<name>MISSILES_VOLATILE</name>
+	<name>CRYSTAL_BURST_DILUTED</name>
+	<name>CRYSTAL_HEAVY_DILUTED</name>
+</blueprintList>
+<blueprintList name="DRONES_DEFENSE_LIST">
+	<name>DEFENSE_1_WEAK</name>
+	<name>SHIP_REPAIR_EXPENSIVE</name>
+</blueprintList>
+<blueprintList name="COMBAT_DRONE_LIST">
+	<name>COMBAT_1_WEAK</name>
+	<name>COMBAT_MISSILE_WEAK</name>
+</blueprintList>
+<blueprintList name="DRONES_COALITION">
+	<!-- <name>SHIP_REPAIR</name> -->
+	<name>COMBAT_1</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM</name>
+	<name>DEFENSE_1</name>
+	<name>DEFENSE_2</name>
+	<name>REPAIR</name>
+	<name>BATTLE</name>
+	<name>BOARDER</name>
+</blueprintList>
+<blueprintList name="WEAPONS_COALITION">
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_5</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_HEAVY_2</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2</name>
+	<name>BOMB_1</name>
+</blueprintList>
+<blueprintList name="SHIPS_FED">
+	<name>FED_SCOUT</name>
+	<name>FED_BOMBER</name>
+</blueprintList>
+<blueprintList name="SHPS_REBEL_AND_AUTO">
+	<name>SHARDSTORM_ENEMY</name>
+	<name>SHARDSTORM_ENEMY_DRONE</name>
+</blueprintList>
+<blueprintList name="SHIPS_REBEL">
+	<name>SHARDSTORM_ENEMY_DRONE</name>
+	<name>SHARDSTORM_ENEMY</name>
+</blueprintList>
+<blueprintList name="SHIPS_REBEL_ELITE">
+	<name>SHARDSTORM_ENEMY_DRONE</name>
+	<name>SHARDSTORM_ENEMY</name>
+</blueprintList>
+<blueprintList name="SHIPS_AUTO">
+	<name>SHARDSTORM_ENEMY</name>
+	<name>SHARDSTORM_ENEMY_DRONE</name>
+</blueprintList>
+<blueprintList name="SHIPS_JELLY">
+	<name>JELLY_BUTTON</name>
+	<name>JELLY_CROISSANT</name>
+	<name>JELLY_TRUFFLE</name>
+</blueprintList>
+<blueprintList name="SHIPS_MANTIS">
+	<name>MANTIS_SCOUT</name>
+	<name>MANTIS_FIGHTER</name>
+	<name>MANTIS_BOMBER</name>
+</blueprintList>
+<blueprintList name="SHIPS_ROCK">
+	<name>ROCK_SCOUT</name>
+	<name>ROCK_FIGHT</name>
+	<name>ROCK_ASSAULT</name>
+</blueprintList>
+<!-- P_REPLACE
+<blueprintList name="SHIPS_ROCK_PIRATE">
+	<name>ROCK_SCOUT</name>
+	<name>ROCK_FIGHT</name>
+</blueprintList>
+-->
+<blueprintList name="SHIPS_ROCK_PIRATE">
+	<name>ROCK_SCOUT_P</name>
+	<name>ROCK_FIGHT_P</name>
+</blueprintList>
+<blueprintList name="SHIPS_CIRCLE">
+	<name>CIRCLE_SCOUT</name>
+	<name>CIRCLE_BOMBER</name>
+</blueprintList>
+<blueprintList name="SHIPS_ZOLTAN">
+	<name>ZOLTAN_FIGHTER</name>
+	<name>ZOLTAN_BOMBER</name>
+</blueprintList>
+<!-- P_REPLACE
+<blueprintList name="SHIPS_ZOLTAN_PIRATE">
+	<name>ZOLTAN_FIGHTER</name>
+	<name>ZOLTAN_BOMBER</name>
+</blueprintList>
+-->
+<blueprintList name="SHIPS_ZOLTAN_PIRATE">
+	<name>ZOLTAN_FIGHTER_P</name>
+	<name>ZOLTAN_BOMBER_P</name>
+</blueprintList>
+<blueprintList name="SHIPS_CRYSTAL">
+	<name>CRYSTAL_SCOUT</name>
+	<name>CRYSTAL_BOMBER</name>
+</blueprintList>
+<blueprintList name="SHIPS_CIVILIAN">
+	<name>JELLY_BUTTON</name>
+	<!--	<name>JELLY_CROISSANT</name>
+	<name>JELLY_TRUFFLE</name> -->
+	<name>ROCK_SCOUT</name>
+	<name>ROCK_FIGHT</name>
+	<name>FED_SCOUT</name>
+	<name>FED_BOMBER</name>
+	<name>CIRCLE_SCOUT</name>
+	<name>CIRCLE_BOMBER</name>
+</blueprintList>
+<!-- P_REPLACE
+<blueprintList name="SHIPS_PIRATE">
+	<name>JELLY_BUTTON</name>
+	<name>JELLY_CROISSANT</name>
+	<name>JELLY_TRUFFLE</name> 
+	<name>REBEL_FAT</name>
+	<name>REBEL_SKINNY</name>  
+	<name>ROCK_SCOUT</name>
+	<name>ROCK_FIGHT</name>
+	<name>MANTIS_SCOUT</name>
+	<name>MANTIS_FIGHTER</name>
+	<name>MANTIS_BOMBER</name>
+	<name>FED_SCOUT</name>
+	<name>FED_BOMBER</name>
+	<name>ZOLTAN_FIGHTER</name>
+	<name>ZOLTAN_BOMBER</name> -->
+<!-- CHANGED
+	<name>ANAEROBIC_BOMBER</name>
+	<name>ANAEROBIC_SCOUT</name>
+</blueprintList>-->
+<blueprintList name="SHIPS_PIRATE">
+	<name>JELLY_BUTTON_P</name>
+	<name>JELLY_CROISSANT_P</name>
+	<name>JELLY_TRUFFLE_P</name>
+	<name>REBEL_FAT_P</name>
+	<name>REBEL_SKINNY_P</name>
+	<name>ROCK_SCOUT_P</name>
+	<name>ROCK_FIGHT_P</name>
+	<name>MANTIS_SCOUT_P</name>
+	<name>MANTIS_FIGHTER_P</name>
+	<name>MANTIS_BOMBER_P</name>
+	<name>FED_SCOUT_P</name>
+	<name>FED_BOMBER_P</name>
+	<name>ZOLTAN_FIGHTER_P</name>
+</blueprintList>
+<shipBlueprint name="SHARDSTORM_ENEMY" layout="SHARDSTORM_ENEMY" img="SHARDSTORM_ENEMY">
+	<class>Shardstorm class</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<battery power="1" max="2" room="8" start="false" />
+		<cloaking power="1" max="3" room="7" start="false" />
+		<clonebay power="1" max="3" room="15" start="false" />
+		<doors power="2" max="3" room="9" start="true" />
+		<engines power="3" max="10" room="11" start="true" />
+		<hacking power="1" max="3" room="3" start="false" />
+		<medbay power="1" max="3" room="15" start="false" />
+		<mind power="1" max="3" room="13" start="false" />
+		<oxygen power="2" max="3" room="14" start="true" />
+		<pilot power="2" max="3" room="5" start="true" />
+		<sensors power="1" max="3" room="10" start="false" />
+		<shields power="2" max="10" room="4" start="true" />
+		<teleporter power="1" max="3" room="12" start="false" />
+		<weapons power="6" max="10" room="1" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="25" count="4" load="WEAPONS_STANDARD" />
+	<health amount="22" />
+	<maxPower amount="20" />
+	<crewCount amount="1" max="2" class="rock" />
+	<crewCount amount="2" max="3" class="mantis" />
+	<crewCount amount="1" max="2" class="slug" />
+	<crewCount amount="1" max="2" class="crystal" />
+	<boardingAI>invasion</boardingAI>
+	<aug name="ROCK_ARMOR" />
+	<aug name="CRYSTAL_SHARDS" />
+	<aug name="SLUG_GEL" />
+</shipBlueprint>
+<shipBlueprint name="SHARDSTORM_ENEMY_DRONE" layout="SHARDSTORM_ENEMY_DRONE" img="SHARDSTORM_ENEMY_DRONE">
+	<class>Shardstorm class</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<battery power="1" max="2" room="8" start="false" />
+		<cloaking power="1" max="3" room="7" start="false" />
+		<clonebay power="1" max="3" room="15" start="false" />
+		<drones power="2" max="10" room="15" start="true" />
+		<doors power="2" max="3" room="9" start="true" />
+		<engines power="3" max="10" room="11" start="true" />
+		<hacking power="1" max="3" room="3" start="false" />
+		<mind power="1" max="3" room="13" start="false" />
+		<oxygen power="2" max="3" room="14" start="true" />
+		<pilot power="2" max="3" room="5" start="true" />
+		<sensors power="1" max="3" room="10" start="false" />
+		<shields power="2" max="10" room="4" start="true" />
+		<weapons power="6" max="10" room="1" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="25" count="4" load="WEAPONS_STANDARD" />
+	<droneList drones="10" count="2" load="DRONES_STANDARD" />
+	<health amount="22" />
+	<maxPower amount="20" />
+	<crewCount amount="2" max="2" class="rock" />
+	<crewCount amount="2" max="3" class="mantis" />
+	<crewCount amount="2" max="2" class="slug" />
+	<crewCount amount="2" max="2" class="crystal" />
+	<boardingAI>invasion</boardingAI>
+	<aug name="ROCK_ARMOR" />
+	<aug name="CRYSTAL_SHARDS" />
+	<aug name="SLUG_GEL" />
+</shipBlueprint>
+<shipBlueprint name="PEREGRINE_ATTACK" layout="FED_ATTACK" img="FED_ATTACK">
+	<class>Peregrine-class Attack Fighter</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<cloaking power="1" max="3" room="2" start="true" />
+		<engines power="3" max="8" room="4" start="true" />
+		<medbay power="1" max="1" room="6" start="false" />
+		<oxygen power="1" max="3" room="1" start="true" />
+		<pilot power="1" max="1" room="0" start="true" />
+		<weapons power="3" max="10" room="3" start="true" />
+	</systemList>
+	<weaponSlots>0</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="0" count="0" load="WEAPONS_REBEL" />
+	<droneList drones="0" count="0" />
+	<health amount="10" />
+	<maxPower amount="20" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="AUTO_COOLDOWN" />
+	<aug name="AUTO_COOLDOWN" />
+	<aug name="NANO_MEDBAY" />
+</shipBlueprint>
+<shipBlueprint name="ZOLTAN_DESTROYER" layout="INSERT NAME HERE" img="INSERT NAME HERE">
+	<class>Zoltan Destroyer</class>
+	<minSector>3</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<battery power="1" max="2" room="8" start="false" />
+		<doors power="1" max="3" room="10" start="false" />
+		<engines power="2" max="10" room="4" start="true" />
+		<medbay power="1" max="3" room="9" start="false" />
+		<oxygen power="1" max="3" room="6" start="true" />
+		<pilot power="2" max="3" room="0" start="true" />
+		<shields power="2" max="10" room="7" start="true" />
+		<weapons power="5" max="10" room="5" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="25" count="4" load="STANDARD_WEAPONS" />
+	<droneList drones="0" count="0" />
+	<health amount="30" />
+	<maxPower amount="20" />
+	<crewCount amount="2" max="8" class="rock" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="AUTO_COOLDOWN" />
+	<aug name="ENERGY_SHIELD" />
+</shipBlueprint>
+
